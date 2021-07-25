@@ -21,6 +21,7 @@ class Aula(models.Model):
 class Usuario(models.Model):
     nome = models.CharField(max_length=200)
     rg = models.CharField(max_length=9)
+    tipo = models.IntegerField(null=True)
 
     def __str__(self):
         return self.nome
