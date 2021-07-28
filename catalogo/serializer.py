@@ -25,4 +25,4 @@ class UsuarioSerializer(serializers.ModelSerializer):
     # Abaixo eu indico qual o modelo que irei indicar e quais os campos, seguindo a doc do rest_framework
     class Meta:
         model = Usuario
-        fields = ['id', 'nome', 'rg', 'tipo', ]
+        fields = ['id', 'nome', 'rg', 'tipo']
