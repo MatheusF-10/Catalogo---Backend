@@ -3,6 +3,12 @@
 Olá.
 Para utilizar o sistema backend, teremos que realizar algumas configurações antes.
 
+
+CONFIGURACOES BASICAS:
+
+  Para rodar o servidor python, execute o comando: python manage.py runserver no terminal;
+  Para acessar o painel administrativo, execute o comando: python manage.py createsuperuser
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 BANCO DE DADOS:
 
@@ -41,6 +47,15 @@ Para configurar o MYSQL com o Django é necessário:
   Para setar em migrations a construção feita no model, utilize o comando: python manage.py makemigrations catalogo
   
   Logo em seguida, execute o comando: python manage.py migrate para o django colocar as alterações no seu banco de dados e disponibilizar no admin do django.
+  
+  
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------
+  REST FRAMEWORK
+  
+  Para instalar o rest_framework do django, utilize o comando: pip install djangorestframework
+  
+  
+  
   
   -------------------------------------------------------------------------------------------------------------------------------------------------------------
   
